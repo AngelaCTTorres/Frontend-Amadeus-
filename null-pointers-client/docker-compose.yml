@@ -1,6 +1,13 @@
+version: '3.8'
+
 services:
-  remix-app:
+  frontend:
     build: .
-    image: null-pointers-client
+    image: new-frontend
+    container_name: remix-frontend
     ports:
-      - "8080:3000"
+      - "4200:4200"
+    environment:
+      - PORT=4200
+      - NODE_ENV=production
+

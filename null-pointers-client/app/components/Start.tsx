@@ -15,17 +15,17 @@ export default function Start() {
     <div className={containerClasses}>
       <div
         className={backgroundClasses}
-        style={{ backgroundImage: "url('/assets/img/homepage-amadeus.jpg')" }}
+        style={{ backgroundImage: "url('/assets/img/homepage.jpg')" }}
       ></div>
       <div className={overlayClasses}></div>
       <div className={contentClasses}>
-        <h1 className={titleClasses}>Tu próxima gran aventura comienza aquí</h1>
+        <h1 className={titleClasses}>Comienza un nuevo viaje</h1>
         <p className={subtitleClasses}>
-          Explora destinos inolvidables y crea recuerdos para toda la vida.
+          Conoce destinos y experimenta el viaje de tus sueños.
         </p>
 
         <Link to="/login" className={buttonClasses}>
-          ¡Empieza tu aventura!
+          ¡viaja ahora!
         </Link>
       </div>
     </div>

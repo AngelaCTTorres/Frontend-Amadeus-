@@ -10,7 +10,7 @@ export const backgroundClasses = classNames(
   "bg-cover bg-center"
 );
 
-export const overlayClasses = "absolute inset-0 bg-[#000835]/40 backdrop-blur-sm";
+export const overlayClasses = "absolute inset-0 bg-[#000835]/10 ";
 
 export const contentClasses = classNames(
   "relative z-10 flex flex-col justify-center items-center p-4",
@@ -22,7 +22,7 @@ export const titleClasses = "text-3xl sm:text-4xl md:text-5xl font-bold mb-3";
 export const subtitleClasses = "text-lg sm:text-xl md:text-2xl opacity-90 mb-6";
 
 export const buttonClasses = classNames(
-  "inline-block bg-[#00d4ff] text-[#000835] px-6 py-3 text-lg sm:text-xl md:text-2xl",
+  "inline-block bg-[#87CEEB] text-[#000835] px-6 py-3 text-lg sm:text-xl md:text-2xl",
   "font-bold rounded-lg no-underline transition-transform duration-300",
   "ease-in-out hover:bg-[#008cba] hover:scale-105 w-[80%] sm:w-[60%] md:w-[50%] text-center"
 );

@@ -9,7 +9,7 @@
   position: relative;
   background: linear-gradient(to bottom right, #000322, #000835, #001140);
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 3, 34, 0.8)),
-              url('/assets/img/amadeusImage.png');
+              url('/assets/img/login.png');
   background-size: cover;
   background-position: center;
 }
